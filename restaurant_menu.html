@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ristorante Saria</title>
+    </head>
+    <body>
+        <header>
+            <h1>Ristorante Saria</h1>
+            <nav>
+                <ul>
+                    <li><a href="#menu-section">Menu</a></li>
+                    <li><a href="#order-section">Place Your Order</a></li>
+                </ul>
+            </nav>
+            <img id="header-img" src="https://media.architecturaldigest.com/photos/66c8923688f5dc5cc31e1e35/16:9/w_2560%2Cc_limit/CH_BAD_ROMAN_NYC_ROUND_1_020323952A.jpg" width="500">
+            <br/><hr/><br/>
+        </header>
+         <main>
+            <section>
+                <h2><span style="color:brown;">Menu</span></h2>
+                <article>
+                    <figure>
+                        <img
+                            width="500"
+                            src="https://www.marthastewart.com/thmb/4X4bEVmelQmvpGpf0GknLB6Wa-A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-312437-antipasto-hero-horiz-0923-ff229bc60f3647c6956ec6b203edfa9e.jpg"
+                            alt="Antipasto"
+                        />
+                    </figure>
+                        <h3><span style="color:gray;">Antipasto</span></h3>
+                    <p>A sumptuous and appetizing platter of choice cold cuts and premium cheeses. Perfect for sharing! <i><span style="color:coral;">PHP 500 per platter</span></i></p>
+                <br><br>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            width="500"
+                            src="https://www.allrecipes.com/thmb/nO3iistRRBHuMCz1Gr_0XuMGaWg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-8513545-penne-alla-vodka-VAT-hero-4x3-2-4a53c968c3d94a32816f01f5793702ce.jpg"
+                            alt="Pasta"
+                        />
+                    </figure>
+                    <h3><span style="color:gray;">Main Course</span></h3>
+                    <p>Penne alla Vodka: A simple, yet classic pasta dish of penne in a sauce made with tomatoes, cream, and a splash of vodka for that velvety feel and enhanced flavor! <i><span style="color:coral;">PHP 340 per plate</span></i></p>
+                <br><br>
+                </article>
+                <article>
+                    <figure>
+                        <img
+                            width="500"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyyYOkdhPnpnYvLOKiyYu1d0tK4kExFqYedg&s"
+                            alt="Tiramisu"
+                        />
+                    </figure>
+                    <h3><span style="color:gray;">Dessert</span></h3>
+                    <p>A classic Italian dessert: the Tiramisu. A simple yet indulgent serving of ladyfingers dipped in freshly-brewed espresso, a generous amount of sweetened mascarpone cream, and a drizzle of cocoa powder to seal the deal. <i><span style="color:coral;">PHP 200 per serving</span></i> </p>
+                <br><br>
+                </article>
+                <br/><hr/><br/>
+            </section>
+            <section>
+                <h2>Place Your Order</h2>
+                <form method="dialog">
+                    <div>
+                        <label><b>Name:</b> </label><input type="text" name="name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label><b>Email:</b> </label><input type="email" name="name" type="email" required>
+                    </div>
+                    <br><br>
+                    <div>
+                        <label><b>Orders:</b> </label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio"> Antipasto
+                        <input type="number" min="0" max="5">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio"> Penne alla Vodka
+                        <input type="number" min="0" max="5">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio"> Tiramisu
+                        <input type="number" min="0" max="5">
+                    </div>
+                    <br><br>
+                    <div>
+                        <label><b>Add-ons:</b> </label>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="radio"> Bread and Olive Oil
+                        <br>
+                        <input type="radio"> Extra Balsamic Vinaigrette
+                        <br>
+                        <input type="radio"> None
+                        <br><br>
+                        <label><b>Special Requests:</b> </label>
+                        <br><br>
+                        <textarea id="data-entry" rows="3" cols="40" placeholder="Enter your special requests here!"></textarea>
+                        <br><br>
+                        <input type="submit" value="Go to Checkout">
+                    </div>
+                    <br/><hr/><br/>
+                </form>
+            </section>
+         </main>
+        <footer>
+            <p>Made with love by sarieseanut ♡</p>
+        </footer>
+    </body>
+</html>
