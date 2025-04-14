@@ -1,0 +1,138 @@
+header > h1 {
+    font-family: Baskerville, serif;
+    position: fixed;
+    padding: 20px;
+    margin: auto;
+}
+
+body {
+    background: url(leaves.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    list-style-type: none;
+    display: flex;
+    border-radius: 25px;
+    background-color: #21846d;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 8px;
+}
+
+.horizontal-list {
+    display: flex;
+    flex-basis: auto;
+    list-style-type: none;
+    gap: 100px;
+    font-family: Baskerville, serif;
+}
+
+.tag[href="#about-me"] {
+    color: rgb(255, 255, 255) !important;
+}
+
+.tag[href="#projects"] {
+    color: rgb(255, 255, 255) !important;
+}
+
+.tag[href="#contact"] {
+    color: rgb(255, 255, 255) !important;
+}
+
+#notification-div {
+    color: #f17a61;
+    padding: 5px;
+    border: 1px solid #f17a61;
+    border-radius: 5px;
+    width: 12%;
+    top: 80px;
+    position: fixed;
+  }
+
+#welcome {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 15%;
+}
+
+img, .page-section > p {
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    object-fit: contain;
+}
+
+#about-me > img {
+    width: 400px;
+    height: 400px;
+}
+
+h2, .page-section > {
+    color: #f17a61;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about-me {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 5%;
+}
+
+#projects > p {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    object-fit: contain;
+}
+
+#projects > img {
+    width: 800px;
+    height: 800px;
+}
+
+p {
+    text-align: justify;
+    display: block; 
+}
+
+h2, .page-section > #projects {
+    color: #f17a61;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#projects {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 5%;
+}
+
+h2, .page-section > #contact {
+    color: #f17a61;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 5%;
+}
+
+  footer {
+    float: right;
+  }
